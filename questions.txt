@@ -1,7 +1,0 @@
-dashboard click-> session action removed?
-
-Didn't save the modified user data.
-
-Admin Account
-username: admin
-password: admin111

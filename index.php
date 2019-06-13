@@ -1,3 +1,6 @@
+<?php
+  include 'header.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,9 +19,6 @@
   <!-- inject:css -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- endinject -->
-  <?php
-    include 'header.php';
-  ?>
 </head>
 
 <body>

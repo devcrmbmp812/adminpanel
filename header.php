@@ -13,14 +13,7 @@
     $data = '';
     $del_id='';
     $edit_id='';
-    echo '<script>window.alert("'.$_SESSION['username'].'")</script>';
-    // if (!empty($_SESSION['username']))
-    // {
-    //     print_r($_SESSION['username']);
-    // }
-    if (empty($_SESSION['username']))
-    {
-       
+    
     if(isset($_POST['username']) && isset($_POST['pwd']) && isset($_POST['flag'])){
         $username = $_POST['username'];
         $pwd = $_POST['pwd'];
@@ -126,5 +119,5 @@
             $msg = "Error updating data: " . $con->error;
         }
     }
-    }
+    
   ?>
